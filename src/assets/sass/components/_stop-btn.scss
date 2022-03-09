@@ -1,0 +1,15 @@
+.stop-btn {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  height: 64px;
+  background: $color-purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  span {
+    max-width: 80px;
+  }
+}

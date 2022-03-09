@@ -1,0 +1,14 @@
+.list {
+  padding-bottom: 24px;
+  padding: 0 1px 24px;
+  &__title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &__phrase {
+    margin-top: 2px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
